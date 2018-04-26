@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: mzjDlWBWaD33EBGRMneKgTMcDx7A+2u+U/GizmktbRpoepgFe1+ca44gHZ4zgl0FcBqdZHl0Cv7mnO/1E+Sq8Nfik2W0YJcH3RAbMZjxDnsnKtluHoF+nrUxsNarGGwhxWOx8wuxb/ECBYyY1KM3lGzP+hOqaPuwew3i5UKv/Gat9xwRfKODvqzOlvkDkZN/fFWE0itwMr6TNGMX9Fj5sUTFzT/wfEGvztJXIV/ceEv3UxC9MFN8dKq2jJR6/t5HmRHucE2wOMhg22d6RD8vt9ENEy1LI8GJ5Xx9vGviTbh3jDRAhR7Xf/ucqaJBs+pXbX3SyhYhza+kTf4v4myEhJCsk98CSujVIdT4/Z46tHrQudvLUEhgpcf8qgTYAEeK+pSgE3QCE5RiOlrjjq0eXvaH2y4mk1OUDkpofHCQ/m8dBIoYIptfNvaD8t/FIp8AlklwYjNc5gv34ftdsKkX4zd/zRitWaJ4KeLfi4w9D+IMdxp919IiJO1nWhrk944Wq4IW482NXY1AEmkay84j/9xzEYj/cpSMu3Dn0hLjQe+gzvMJrXAhBJwolYGAw1Qv7ONNsUMBd63notjf/BEtk5b6A/6Hi6GwTaYmW2CziOi5lguOuZj4hzkVJZxofniRFudU0AegkSK5sabUDlE7Ug5tOKVendYTmlHDEu07jpE=
+  app: enigmatic-refuge-14556
+  on:
+    repo: mike-crane/node-shopping-list-integration-tests
+    branch: tests-for-recipes
